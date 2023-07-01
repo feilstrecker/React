@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.main {
+  background-color: rgb(42, 31, 31);
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main > h1 {
+  color: rgb(42, 31, 31);
+  background-color: white;
+  padding: 0.2rem 1rem;
+  width: 18rem;
+}
+
