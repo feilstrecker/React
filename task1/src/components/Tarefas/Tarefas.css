@@ -1,0 +1,38 @@
+ul {
+  list-style: circle;
+  padding: 0.5rem;
+}
+
+ul > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  transition: 0.2s;
+  border-radius: 0.3rem;
+}
+
+li:hover {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+
+.edit-btn, .del-btn {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.li-btns {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.edit-btn:hover {
+  color: #00ff00;
+  transform: scale(1.1);
+}
+.del-btn:hover {
+  color: red;
+  transform: scale(1.1);
+}
